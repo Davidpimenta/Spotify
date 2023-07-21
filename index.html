@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="shortcut icon" href="projeto-inicial-spotify/imagens/favicon.png" type="image/x-icon">
+    <title>Spotify</title>
+</head>
+<body>    
+    <header class="d-flex align-items-center justify-content-center flex-column">
+        <nav class="fixed-top" style="background-color: rgba(0, 0, 0, 0.555);">
+            <div class="container-md p-2 pb-0">
+                <nav class="navbar navbar-expand-lg mb-1">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="projeto-inicial-spotify/imagens/spotify.svg" alt="Spotify" height="40">
+                        </a>
+                        <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <img src="projeto-inicial-spotify/imagens/list.svg" width="30px">
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end w-100">
+                            <li class="nav-item">
+                            <a class="nav-link active text-light ahover" aria-current="page" href="#">Premium</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-light ahover" aria-current="page" href="#">Ajuda</a>
+                                </li>
+                            <li class="nav-item">
+                            <a class="nav-link active text-light ahover" aria-current="page" href="#">Baixar</a>
+                            </li>
+                            <li class="nav-item d-none d-dm-block">
+                            <a class="nav-link active text-light ahover" aria-current="page" href="#">|</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link active text-light ahover" aria-current="page" href="#">Inscrever-se</a>
+                            </li>
+                            <li class="nav-item">
+                            <a href="index.html" class="nav-link text-light ahover">Entrar</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                    </nav>
+                </div>
+        </nav>
+        <h1 class="text-light" style="font-size: 6em; font-weight: 900;">Música para todos</h1>
+        <section class="d-flex flex-column flex-lg-row align-items-center gap-3">
+            <div>
+                <a href="" id="free" class="text-light btn px-4 py-2 rounded-pill" style="background-color: #7c25f8; text-decoration: none; font-size: 1.3em;">APROVEITE O SPOTIFY FREE</a>
+            </div>
+            <div>
+                <a href="#" type="button" id="obter" class="btn btn-outline-light px-4 py-2 rounded-pill" style="font-size: 1.3em;">OBTER SPOTIFY PREMIUM</a>
+            </div>
+        </section>
+    </header>
+    <script src="https://kit.fontawesome.com/0dad49e0d6.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+
+    <main>
+        <article class="container py-5 d-flex flex-column flex-md-row">
+            <section class="col-md-6 gap-md-4 d-flex flex-wrap align-items-baseline align-self-start justify-content-center">
+                <img src="projeto-inicial-spotify/imagens/img1.jpg" alt="" class="col-md-5 col-12">
+                <img src="projeto-inicial-spotify/imagens/img2.jpg" alt="" class="col-md-5 col-12 mb-sm-0 mb-4">
+                <img src="projeto-inicial-spotify/imagens/img3.jpg" alt="" class="col-md-5 col-12">
+                <img src="projeto-inicial-spotify/imagens/img4.jpg" alt="" class="col-md-5 col-12">
+            </section>
+            <section>
+                <h1 style="color:#7C25F8; text-align: start;" class="display-3 fw-bolder mb-2">O que o Spotify tem?</h1>
+                <h2 class="display-6 fw-bolder" style="color: #7C25F8;">Músicas</h2>
+                <p>O Spotify tem milhões de músicas. Escute seus sons favoritos, descubra novas músicas e reúna seus favoritos em um só lugar</p>
+                <h2 class="display-6 fw-bolder" style="color: #7C25F8;">Playlists</h2>
+                <p>No Spotify você encontra uma playlist para cada momento. Todas feitas por fanáticos e especialistas da música.</p>
+                <h2 class="display-6 fw-bolder" style="color: #7C25F8;">Novos lançamentos</h2>
+                <p>Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no Top 50.</p>
+            </section>
+        </article>
+    </main>
+
+    <article id="top-footer">
+        <section class="container py-4 d-flex flex-md-row flex-column flex-wrap">
+            <div class="col-md-4 col-12">
+                <h1 style="text-align: start;" class="mb-3">Fácil</h1>
+                <h2 style="color: #9BF0E1;">Buscar</h2>
+                <p style="color: white;">Já sabe o que quer escutar? É só procurar e apertar o play.</p>
+                <h2 style="color: #9BF0E1;">Navegar</h2>
+                <p style="color: white;">Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.</p>
+                <h2 style="color: #9BF0E1;">Descobrir</h2>
+                <p style="color: white;">Curta músicas novas toda segunda-feira com uma playlist personalizada pra você. Ou relaxe e curta uma das rádios.</p>
+            </div>
+            <div class="col-md-8 col-12">
+                <div id="iphones" class="flex-md-row flex-column gap-0 gap-md-4">
+                    <img src="projeto-inicial-spotify/imagens/iphone1.png" alt="" class="img">
+                    <img class="img" src="projeto-inicial-spotify/imagens/iphone2.png" alt="">
+                </div>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <section class="container py-5 d-flex flex-md-row flex-column justify-content-between gap-md-5">
+                <div><img src="projeto-inicial-spotify/imagens/spotify.svg" alt="" width="150px"></div>
+                <div>
+                    <h3 class="h5 text-uppercase" style="color: #919496;">Company</h3>
+                    <ul class="p-0">
+                        <li style="list-style-type: none;"><a href="#" class="ahover text-light">Sobre</a></li>
+                        <li style="list-style-type: none;"><a href="#" class="ahover text-light">Empregos</a></li>
+                        <li style="list-style-type: none;"><a href="#" class="ahover text-light">Imprensa</a></li>
+                        <li style="list-style-type: none;"><a href="#" class="ahover text-light">Novidades</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="h5 text-uppercase" style="color: #919496;">Comunidades</h3>
+                    <ul class="p-0">
+                        <li style="list-style-type: none;"><a href="#" class="ahover text-light">Artistas</a></li>
+                        <li style="list-style-type: none;"><a href="#" class="ahover text-light">Desenvolvedores</a></li>
+                        <li style="list-style-type: none;"><a href="#" class="ahover text-light">Marcas</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="h5 text-uppercase" style="color: #919496;">Links uteis</h3>
+                    <ul class="p-0">
+                        <li style="list-style-type: none;"><a href="#" class="ahover text-light">Ajuda</a></li>
+                        <li style="list-style-type: none;"><a href="#" class="ahover text-light">Presentes</a></li>
+                        <li style="list-style-type: none;"><a href="#" class="ahover text-light">Player da web</a></li>
+                    </ul>
+                </div>
+                <div class="d-md-block d-flex justify-content-end gap-2">
+                    <a href="index.html"><img src="projeto-inicial-spotify/imagens/twitter.png" alt=""></a>
+                    <a href="index.html"><img src="projeto-inicial-spotify/imagens/facebook.png" alt=""></a>
+                    <a href="index.html"><img src="projeto-inicial-spotify/imagens/instagram.png" alt=""></a>
+                </div>
+        </section>
+    </footer>
+</body>
+</html>

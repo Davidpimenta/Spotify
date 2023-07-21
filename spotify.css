@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    height: 100vh;
+    background: url(projeto-inicial-spotify/imagens/capa.png), url(projeto-inicial-spotify/imagens/ruido.png), linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+
+#top-footer{
+    background: url(projeto-inicial-spotify/imagens/capa.png), url(projeto-inicial-spotify/imagens/ruido.png), linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.ahover{
+    text-decoration: none;
+}
+
+.ahover:hover{
+    color: #007bff !important;
+}
+
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+#free:hover{
+    transition: 0.5s;
+    background-color: #6207E3!important;
+}
+
+#obter{
+    transition: 0.5s;
+}
+
+
+#iphones{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    rotate: 30deg;
+}
+
+.img{
+    width: 300px;
+}
+
+
+footer{
+    width: auto;
+    background-color: black;
+    position: relative;
+    z-index: 999;
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px){
+    h1{
+        font-size: 4em!important;
+        text-align: center;
+    }
+
+    .imgres{
+        width: 25%;
+    } 
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+    .img{
+        width: 185px;
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px){
+    .img{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 4em!important;
+        text-align: center;
+    }
+    .imgres{
+        width: 100%;
+    }
+}
+
